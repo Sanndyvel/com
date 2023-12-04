@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Ropa Hombre</title>
+		<link rel="stylesheet" href="CSS/styles.css" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html" class="logo">
+		  <br>
+		  <img src="logo/LIZ-SHOP.gif">
+		<h2 class="nombre-empresa"> LIZ-SHOP </h2>
+	    </a>
+		<center><p>ESCOGA LA ROPA QUE QUIERA COMPRAR</p></center>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="images/a.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>pantalon casual</h2>
+					<p class="price">$250</p>
+					<p class="inf"> pantalon casual con franjas blancas, tela algohodon. </p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/b.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>conjunto</h2>
+					<p class="price">$700</p>
+					<p class="inf"> conjunto de pantalones de mezclilla, chamarra de mezclilla casual.</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/c.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>camisa&nbsp;</h2>
+					<p class="price">$300</p>
+					<p class="inf"> Camisa de lana con franjas color blanca.</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/d.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Playera&nbsp;</h2>
+					<p class="price">$200</p>
+					<p class="inf"> Playera de lana lisa, color blanca.</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/e.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Chamarra mezclilla</h2>
+					<p class="price">$500</p>
+					<p class="inf"> Chamarra mezclilla hombre, con destruccion stone. </p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/f.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Traje Elegante&nbsp;&nbsp;</h2>
+					<p class="price">$1500</p>
+					<p class="inf"> Traje de 2 piezas elegante corte blacer.</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/g.jfif"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pantalon&nbsp;</h2>
+					<p class="price">$350</p>
+					<p class="inf"> Pantalon de vestir, color gris lizo.</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/h.jfif"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pantalon de cuadro</h2>
+					<p class="price">$360</p>
+					<p class="inf"> Pantalon de cuadro, color cafe claro.</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="images/i.png"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Conjunto Deportivo</h2>
+					<p class="price">$450</p>
+					<p class="inf"> Camisa manga larga, short color gris tela algohodon. </p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+		
+		 <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>Liz<span>Shop</span></h3>
+
+            <p class="footer-links">
+                <a href="index.html">INICIO</a>
+                |
+                <a href="contacto.html">CONTACTAME</a>
+		  <div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:sagar00001.co@gmail.com">lizbethupch.mx</a></p>
+		  </div>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2023 <strong>Liz Shop</strong> </p>
+        </div>
+
+  <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Sobre nosotros</span>
+                <strong>Liz SHOP</strong> es una tienda de ropa en línea, exclusivo para los amantes de las moda.
+				Tiene como objetivo la comercialización de prendas de vestir que resaltan la belleza de la mujer y hombre actual, regida por las últimas tendencias 
+					de la moda para cada temporada (primavera-verano y otoño-invierno) en ropa, calzado y accesorios.
+				En nuestras tiendas encontraras siempre un portafolio de productos y servicios enfocados a la satisfacción de la mujer y hombre que desea sentirse bellos, modernos y glamurosos en toda ocasión
+            </p>
+         
+  </footer>
+
+		<script src="js/index.js"></script>
+	</body>
+</html>
